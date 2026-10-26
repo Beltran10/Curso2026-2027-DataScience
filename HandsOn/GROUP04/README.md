@@ -5,4 +5,4 @@
 * Erika He - @
 * YaoYao Ji - @Yaoooo23
 * Jiamin Wang - @Jiamin001
-* XinRu Wu - @
+* XinRu Wu - @Roseo56
