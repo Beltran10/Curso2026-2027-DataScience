@@ -5,7 +5,7 @@
 
 ## 1. ¿Qué hemos hecho en esta primera práctica?
 En este primer hands-on, nos hemos centrado en definir el alcance de nuestro proyecto y buscar los conjuntos de datos necesarios.
-Hemos elegido el tema: una aplicación para promover la gastronomía en Madrid, que mas adelante, queremos añadir más funcionalidades como check-in, dejar más reseñas, buscar restaurantes según categorías, etc.
+Hemos elegido el tema: una aplicación para promover la gastronomía en Madrid, que más adelante añadiremos más funcionalidades como check-in, dejar más reseñas, buscar restaurantes según categorías, etc.
 En este primer trabajo, hemos buscado y seleccionado tres conjuntos de datos principales que cumplen los requisitos:
   1. Reseñas de restaurantes de TripAdvisor en la zona de Madrid (Como es un dato muy grande, acorté para que solo tenga las 10.000 primeras reseñas).
   2. El censo oficial de locales de hostelería y restauración del Ayuntamiento de Madrid (Datos Abiertos) para las ubicaciones.
