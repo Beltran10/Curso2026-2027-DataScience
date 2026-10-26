@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BiciMAD Explorer - Dataset Requirements</title>
+</head>
+<body>
+
+    <h1>BiciMAD Explorer - Dataset Requirements</h1>
+
+    <h2>1. Dataset Description</h2>
+
+    <p>
+        The selected dataset contains information about BiciMAD,
+        the public bicycle-sharing system in Madrid.
+        It is published by the Madrid City Council Open Data Portal.
+    </p>
+
+    <p>
+        The CSV file contains 631 records and 12 columns,
+        including station identifiers, names, addresses,
+        geographical coordinates, station capacity and status.
+    </p>
+
+    <p>
+        Dataset source:
+        <a href="https://datos.madrid.es/dataset/208327-0-transporte-bicicletas-bicimad/information">
+            BiciMAD Stations - Madrid Open Data Portal
+        </a>
+    </p>
+
+    <h2>2. Dataset Requirements</h2>
+
+    <h3>R1. Smart City Domain</h3>
+
+    <p>
+        The dataset belongs to the Smart Cities domain,
+        specifically sustainable urban mobility.
+        BiciMAD promotes bicycle transportation and provides
+        an alternative to private motor vehicles in Madrid.
+    </p>
+
+    <h3>R2. CSV Format</h3>
+
+    <p>
+        The dataset is available in CSV format.
+        The selected file is named bikestationbicimad_csv.csv
+        and contains 631 records and 12 columns.
+    </p>
+
+    <h3>R3. Open License</h3>
+
+    <p>
+        The dataset is published under the Creative Commons
+        Attribution 4.0 International (CC BY 4.0) license.
+        This license allows the data to be shared and adapted,
+        provided that appropriate attribution is given.
+    </p>
+
+    <h3>R4. Linking with Real-World Entities</h3>
+
+    <p>
+        The dataset contains geographical information that
+        can be linked to other real-world entities.
+        The Address, POINT_X and POINT_Y fields allow
+        BiciMAD stations to be associated with streets,
+        neighborhoods and districts in Madrid.
+    </p>
+
+    <h3>R5. Documentation (Optional)</h3>
+
+    <p>
+        The Madrid Open Data Portal provides documentation
+        describing the content and structure of the dataset.
+        Therefore, this optional requirement is satisfied.
+    </p>
+
+    <h3>R6. Multiple Data Sources (Optional)</h3>
+
+    <p>
+        Currently, the project uses one dataset provided
+        by the Madrid City Council Open Data Portal.
+        In future stages, additional datasets containing
+        information about Madrid's districts or streets
+        could be incorporated.
+    </p>
+
+    <h2>3. Possible Links with Other Datasets</h2>
+
+    <p>
+        The BiciMAD dataset contains several fields that
+        could be used to establish links with other datasets.
+    </p>
+
+    <ul>
+        <li>
+            Address: could be linked to street information
+            from other Madrid datasets.
+        </li>
+        <li>
+            POINT_X and POINT_Y: could be used to associate
+            stations with geographical entities such as
+            neighborhoods and districts.
+        </li>
+        <li>
+            Name and number: could help identify the same
+            stations in other BiciMAD-related datasets.
+        </li>
+    </ul>
+
+    <p>
+        For example, a dataset containing Madrid's district
+        boundaries could be used to determine which district
+        each BiciMAD station belongs to.
+        The district entities could then be linked to
+        the stations using their geographical coordinates.
+    </p>
+
+    <h2>4. Conclusion</h2>
+
+    <p>
+        The selected BiciMAD dataset satisfies the four
+        mandatory requirements (R1-R4) and the optional
+        documentation requirement (R5).
+        The multiple data sources requirement (R6) is
+        not currently satisfied, but additional datasets
+        could be incorporated in future stages.
+    </p>
+
+    <p>
+        This dataset is suitable for the BiciMAD Explorer
+        project because it provides information about
+        bicycle stations and their geographical locations
+        in Madrid.
+    </p>
+
+</body>
+</html>
+```
