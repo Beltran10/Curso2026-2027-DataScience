@@ -17,7 +17,7 @@ Todo ello, lo hemos puesto según
 * **Formatos de archivo:** Algunos datasets estaban inicialmente en XML o KML, por lo que tuvimos que asegurarnos de descargar las versiones en CSV para cumplir con los requisitos.
 
 
-## 4. Conclusión
+## 3. Conclusión
 Finalmente, en este trabajo, hemos aprendido a buscar fuentes de Datos Abiertos, a evaluar si un conjunto de datos tiene una licencia abierta y a manejar archivos CSV grandes. También hemos entendido la importancia de enlazar los datos con entidades del mundo real (como coordenadas) para construir aplicaciones útiles.
 
 
