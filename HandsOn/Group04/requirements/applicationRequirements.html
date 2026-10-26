@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Requisitos de la aplicación - GroupXX</title>
+<title>Requisitos de la aplicación - Group04</title>
 <style>
   body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 30px auto; padding: 0 20px; color: #333; }
   h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
@@ -20,7 +20,7 @@
 <body>
 
 <h1>Requisitos de la aplicación: AireBarrio València</h1>
-<p><strong>Grupo:</strong> GroupXX &nbsp;|&nbsp; <strong>Hands-on 1</strong> – Selección de datasets y requisitos de la aplicación</p>
+<p><strong>Grupo:</strong> Group04 &nbsp;|&nbsp; <strong>Hands-on 1</strong> – Selección de datasets y requisitos de la aplicación</p>
 
 <h2>1. La idea</h2>
 <p>
@@ -88,14 +88,23 @@
     <tr><td>RF3</td><td>La app muestra un resultado general del día para ese distrito (buena, regular o mala) con un color fácil de entender.</td><td>Inicio</td></tr>
     <tr><td>RF4</td><td>La app indica qué estación se ha usado para calcular el resultado.</td><td>Inicio</td></tr>
     <tr><td>RF5</td><td>La app muestra el valor de cada contaminante principal (por ejemplo NO2, O3 y PM10) con una barra de color.</td><td>Inicio</td></tr>
-    <tr><td>RF6</td><td>La app muestra una gráfica de cómo ha evolucionado un contaminante a lo largo de las horas del día.</td><td>Inicio</td></tr>
+    <tr><td>RF6</td><td>La app muestra una gráfica de cómo ha evolucionado un contaminante a lo largo de las horas del día.</td><td>Evolución horas</td></tr>
     <tr><td>RF7</td><td>La app muestra un mapa de los distritos coloreados según su calidad del aire, con las estaciones marcadas.</td><td>Mapa</td></tr>
     <tr><td>RF8</td><td>Al tocar un distrito en el mapa, la app lleva al usuario a la información de ese distrito.</td><td>Mapa</td></tr>
-    <tr><td>RF9</td><td>El usuario puede comparar dos o más distritos para una misma fecha.</td><td>Comparar</td></tr>
+    <tr><td>RF9</td><td>El usuario puede comparar dos o más distritos para una misma fecha.</td><td>Futura (no incluida en el boceto)</td></tr>
     <tr><td>RF10</td><td>Si faltan datos (estación sin medición, hora vacía, contaminante que no se mide), la app lo dice claramente en vez de enseñar un cero o dejarlo en blanco.</td><td>Todas</td></tr>
     <tr><td>RF11</td><td>La app muestra siempre la fuente de los datos (Ajuntament de València, CC BY 4.0).</td><td>Todas</td></tr>
   </tbody>
 </table>
+  
+<h2>4.1 Mock-up de la interfaz</h2>
+<figure>
+  <img src="bocetoapp.jpeg" alt="Boceto de las pantallas de AireBarrio València">
+  <figcaption>Boceto de las pantallas Inicio y Mapa de distritos.</figcaption>
+</figure>
+<p><strong>Inicio:</strong> el usuario elige distrito y día; la app muestra el resultado general (buena, regular o mala) y una barra por contaminante (NO2, O3, PM10).</p>
+<p><strong>Mapa de distritos:</strong> mapa de València con los distritos, las estaciones marcadas y una leyenda de colores.</p>
+<p><strong>Evolución horas:</strong> pestaña de la barra de navegación para ver la evolución de un contaminante a lo largo del día (pantalla pendiente de dibujar).</p>
 
 
 <h2>5. Limitaciones y cosas que tendremos que tener en cuenta</h2>
@@ -117,7 +126,7 @@
   la app y qué problemas de los datos habrá que resolver antes de construirla.
 </p>
 
-<h2>7.Licencias</h2>
+<h2>7. Licencias</h2>
 <p>
   Fuente de los datos: © Ajuntament de València, <a href="https://opendata.vlci.valencia.es/">portal de datos abiertos (VLCi)</a>, bajo licencia
   <a href="http://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>.
