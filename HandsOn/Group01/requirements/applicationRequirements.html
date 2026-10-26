@@ -2,143 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiciMAD Explorer - Application Requirements</title>
 </head>
 <body>
 
-    <h1>BiciMAD Explorer - Application Requirements</h1>
+    <h1>Application Requirements - BiciMAD Explorer</h1>
 
-    <h2>1. Application Description</h2>
+    <h2>Application Description</h2>
 
     <p>
-        BiciMAD Explorer is a web application designed to help
-        users find and explore public bicycle stations in Madrid.
-        The application uses open data published by the Madrid
-        City Council.
+        Our idea is to create a web application called BiciMAD Explorer.
+        The application will help users find BiciMAD stations
+        around Madrid and see information about them.
     </p>
 
     <p>
-        Its main objective is to promote sustainable urban mobility
-        by making information about BiciMAD stations easier to access.
+        We want to make it easier for people to find bicycle
+        stations and encourage the use of public bicycles.
     </p>
 
-    <h2>2. Target Users</h2>
+    <h2>Target Users</h2>
 
     <p>
-        The application is intended for Madrid residents,
-        students, tourists and anyone interested in using
-        the BiciMAD public bicycle-sharing service.
+        The application is designed for people living in Madrid,
+        students, tourists and anyone who wants to use BiciMAD.
     </p>
 
-    <h2>3. Application Functionalities</h2>
+    <h2>Main Features</h2>
 
-    <h3>3.1. Interactive Map</h3>
+    <h3>Map of Stations</h3>
 
     <p>
-        Users will be able to visualize BiciMAD stations
-        on an interactive map of Madrid.
-        Each station will be represented by a marker
-        based on its geographical coordinates.
+        The application will show a map of Madrid with the
+        location of the BiciMAD stations.
+        Users will be able to click on a station to see
+        more information.
     </p>
 
-    <h3>3.2. Station Information</h3>
+    <h3>Station Information</h3>
 
     <p>
-        By selecting a station, users will be able to
-        view its name, address, total capacity and
-        service status.
+        Each station will have a small information page
+        showing its name, address, capacity and status.
     </p>
 
-    <h3>3.3. Search Functionality</h3>
+    <h3>Search</h3>
 
     <p>
-        Users will be able to search for stations
-        by their name, number or address.
+        Users will be able to search for a station
+        by its name, number or address.
     </p>
 
-    <h3>3.4. Station Filtering</h3>
+    <h3>Filters</h3>
 
     <p>
-        The application will allow users to filter
-        stations according to their service status.
-        For example, users will be able to display
-        only stations marked as IN_SERVICE.
+        Users will also be able to filter stations
+        depending on their status.
+        For example, they could choose to see only
+        stations that are in service.
     </p>
 
-    <h3>3.5. Station List</h3>
+    <h2>Application Mock-ups</h2>
 
     <p>
-        In addition to the map, the application will
-        provide a list of stations showing their
-        names, addresses and capacities.
-    </p>
-
-    <h2>4. Application Mock-ups</h2>
-
-    <p>
-        The following mock-ups illustrate the proposed
-        user interface of BiciMAD Explorer.
-        They are conceptual designs and do not represent
-        an implemented application.
-    </p>
-
-    
-
-    
-
-    <p>
-        The main screen includes a search bar,
-        a status filter, a station list and
-        an interactive map.
+        These are two simple examples of how we would
+        like the application to look.
     </p>
 
 
     
 
     <p>
-        When a user selects a station, the application
-        will display its main characteristics.
-        The values shown above are illustrative.
+        On the main screen, users can search for stations,
+        use filters and see their locations on a map.
     </p>
 
-    <h2>5. Data Used by the Application</h2>
+
+ 
 
     <p>
-        The application will use the BiciMAD stations
-        dataset published by the Madrid City Council.
-        The main fields used will be:
+        When a user selects a station, they will see
+        its main information. The values in this
+        example are not from a real station.
+    </p>
+
+    <h2>Data Used</h2>
+
+    <p>
+        The application will use the BiciMAD dataset
+        from the Madrid Open Data Portal.
+        We will mainly use these fields:
     </p>
 
     <ul>
         <li>Name: station name.</li>
-        <li>number: station identifier.</li>
+        <li>number: station number.</li>
         <li>Address: station address.</li>
-        <li>TotalBases: total number of bicycle docks.</li>
-        <li>State: station service status.</li>
-        <li>POINT_X and POINT_Y: geographical coordinates.</li>
+        <li>TotalBases: station capacity.</li>
+        <li>State: station status.</li>
+        <li>POINT_X and POINT_Y: station coordinates.</li>
     </ul>
 
     <p>
-        The dataset provides station information,
-        but it does not guarantee real-time bicycle
-        availability. Therefore, the application
-        will not display the number of bicycles
-        currently available at each station.
+        The CSV does not provide live information about
+        the number of bicycles available at each station,
+        so we will not include that feature.
     </p>
 
-    <h2>6. Expected Benefits</h2>
+    <h2>Conclusion</h2>
 
     <p>
-        BiciMAD Explorer will make it easier to locate
-        bicycle stations, explore their characteristics
-        and identify stations that are in service.
-    </p>
-
-    <p>
-        The application aims to improve access to
-        public mobility information and encourage
-        sustainable transportation in Madrid.
+        With BiciMAD Explorer, we want to create a simple
+        application that helps people find bicycle stations
+        in Madrid and check their main information.
     </p>
 
 </body>
