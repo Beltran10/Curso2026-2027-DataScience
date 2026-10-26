@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiciMAD Explorer - Application Requirements</title>
+</head>
+<body>
+
+    <h1>BiciMAD Explorer - Application Requirements</h1>
+
+    <h2>1. Application Description</h2>
+
+    <p>
+        BiciMAD Explorer is a web application designed to help
+        users find and explore public bicycle stations in Madrid.
+        The application uses open data published by the Madrid
+        City Council.
+    </p>
+
+    <p>
+        Its main objective is to promote sustainable urban mobility
+        by making information about BiciMAD stations easier to access.
+    </p>
+
+    <h2>2. Target Users</h2>
+
+    <p>
+        The application is intended for Madrid residents,
+        students, tourists and anyone interested in using
+        the BiciMAD public bicycle-sharing service.
+    </p>
+
+    <h2>3. Application Functionalities</h2>
+
+    <h3>3.1. Interactive Map</h3>
+
+    <p>
+        Users will be able to visualize BiciMAD stations
+        on an interactive map of Madrid.
+        Each station will be represented by a marker
+        based on its geographical coordinates.
+    </p>
+
+    <h3>3.2. Station Information</h3>
+
+    <p>
+        By selecting a station, users will be able to
+        view its name, address, total capacity and
+        service status.
+    </p>
+
+    <h3>3.3. Search Functionality</h3>
+
+    <p>
+        Users will be able to search for stations
+        by their name, number or address.
+    </p>
+
+    <h3>3.4. Station Filtering</h3>
+
+    <p>
+        The application will allow users to filter
+        stations according to their service status.
+        For example, users will be able to display
+        only stations marked as IN_SERVICE.
+    </p>
+
+    <h3>3.5. Station List</h3>
+
+    <p>
+        In addition to the map, the application will
+        provide a list of stations showing their
+        names, addresses and capacities.
+    </p>
+
+    <h2>4. Application Mock-ups</h2>
+
+    <p>
+        The following mock-ups illustrate the proposed
+        user interface of BiciMAD Explorer.
+        They are conceptual designs and do not represent
+        an implemented application.
+    </p>
+
+    <h3>4.1. Main Screen</h3>
+
+    <pre>
+    +----------------------------------------------------+
+    |                  BiciMAD Explorer                  |
+    +----------------------------------------------------+
+    |                                                    |
+    |  Search station: [____________________] [Search]    |
+    |                                                    |
+    |  Status: [All stations v]                          |
+    |                                                    |
+    +----------------------+-----------------------------+
+    |                      |                             |
+    |   STATION LIST       |       MAP OF MADRID         |
+    |                      |                             |
+    |   Station 001        |          [*]                |
+    |   Station 002        |                [*]          |
+    |   Station 003        |     [*]                     |
+    |   Station 004        |                    [*]      |
+    |                      |                             |
+    +----------------------+-----------------------------+
+    </pre>
+
+    <p>
+        The main screen includes a search bar,
+        a status filter, a station list and
+        an interactive map.
+    </p>
+
+    <h3>4.2. Station Details</h3>
+
+    <pre>
+    +------------------------------------------+
+    |              STATION DETAILS             |
+    +------------------------------------------+
+    |                                          |
+    |  Name: Station 001                       |
+    |                                          |
+    |  Address: Example Street                 |
+    |                                          |
+    |  Capacity: 24 bicycle docks              |
+    |                                          |
+    |  Status: IN_SERVICE                      |
+    |                                          |
+    |  [Back to map]                           |
+    |                                          |
+    +------------------------------------------+
+    </pre>
+
+    <p>
+        When a user selects a station, the application
+        will display its main characteristics.
+        The values shown above are illustrative.
+    </p>
+
+    <h2>5. Data Used by the Application</h2>
+
+    <p>
+        The application will use the BiciMAD stations
+        dataset published by the Madrid City Council.
+        The main fields used will be:
+    </p>
+
+    <ul>
+        <li>Name: station name.</li>
+        <li>number: station identifier.</li>
+        <li>Address: station address.</li>
+        <li>TotalBases: total number of bicycle docks.</li>
+        <li>State: station service status.</li>
+        <li>POINT_X and POINT_Y: geographical coordinates.</li>
+    </ul>
+
+    <p>
+        The dataset provides station information,
+        but it does not guarantee real-time bicycle
+        availability. Therefore, the application
+        will not display the number of bicycles
+        currently available at each station.
+    </p>
+
+    <h2>6. Expected Benefits</h2>
+
+    <p>
+        BiciMAD Explorer will make it easier to locate
+        bicycle stations, explore their characteristics
+        and identify stations that are in service.
+    </p>
+
+    <p>
+        The application aims to improve access to
+        public mobility information and encourage
+        sustainable transportation in Madrid.
+    </p>
+
+</body>
+</html>
