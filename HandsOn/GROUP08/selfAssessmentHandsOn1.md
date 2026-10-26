@@ -10,7 +10,6 @@ En este primer trabajo, hemos buscado y seleccionado tres conjuntos de datos pri
   1. Reseñas de restaurantes de TripAdvisor en la zona de Madrid (Como es un dato muy grande, acorté para que solo tenga las 10.000 primeras reseñas).
   2. El censo oficial de locales de hostelería y restauración del Ayuntamiento de Madrid (Datos Abiertos) para las ubicaciones.
   3. El conjunto de datos oficial de los barrios de Madrid para la interfaz del mapa.
-Todo ello, lo hemos puesto según 
 
 ## 2. Dificultades que hemos encontrado
 * **Tamaño de datos:** El dataset inicial de TripAdvisor era extremadamente grande (más de 400MB), lo que causó problemas al intentar subirlo a GitHub. Tuvimos que escribir un script en Python para extraer una muestra más pequeña (10.000 filas) que sigue representando los datos pero es manejable para el repositorio.
