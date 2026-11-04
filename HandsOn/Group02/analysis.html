@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BiciMAD Dataset Analysis</title>
+</head>
+<body>
+
+    <h1>BiciMAD Dataset Analysis</h1>
+
+    <h2>1. Introduction</h2>
+
+    <p>This dataset contains information about BiciMAD stations in Madrid.
+    Within this dataset, we can find different types of information related to the operation of BiciMAD in Madrid,
+    such as station locations, coordinates, and whether the stations are available or unavailable.
+    The dataset was obtained from the Madrid City Council Open Data Portal.</p>
+
+    <h2>2. Dataset Structure</h2>
+
+    <p>The dataset contains 631 records and 12 columns.
+    Each row represents a BiciMAD station. Each column contains a characteristic of the station,
+    such as its name, address, or capacity.</p>
+
+    <table>
+        <tr>
+            <th>Column</th>
+            <th>Description</th>
+            <th>Data Type</th>
+        </tr>
+        <tr>
+            <td>OBJECTID</td>
+            <td>Identifier of each record</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>Activate</td>
+            <td>Indicates if the station is activated</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>Address of the BiciMAD station</td>
+            <td>String</td>
+        </tr>
+        <tr>
+            <td>PosicionSTR</td>
+            <td>Geographical position of the station in text format</td>
+            <td>String</td>
+        </tr>
+        <tr>
+            <td>Ligth</td>
+            <td>Numeric indicator related to the station</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Name of the BiciMAD station</td>
+            <td>String</td>
+        </tr>
+        <tr>
+            <td>NoAvailable</td>
+            <td>Indicates if the station is unavailable</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>number</td>
+            <td>Identification number of the station</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>TotalBases</td>
+            <td>Total number of bicycle docking spaces</td>
+            <td>Integer</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>State recorded for the station</td>
+            <td>String</td>
+        </tr>
+        <tr>
+            <td>POINT_X</td>
+            <td>Geographical X coordinate of the station</td>
+            <td>Decimal</td>
+        </tr>
+        <tr>
+            <td>POINT_Y</td>
+            <td>Geographical Y coordinate of the station</td>
+            <td>Decimal</td>
+        </tr>
+    </table>
+
+    <h2>3. Data Analysis</h2>
+
+    <h3>3.1. Station Capacity</h3>
+
+    <p>The 'TotalBases' column indicates how many docking points each station has.
+    According to the data, the minimum capacity is 0, the maximum is 43,
+    the mean is 23.68, and the most frequent value (mode) is 23.
+    There are 2 stations with a capacity of 0.
+    The number of docking points varies from one station to another.</p>
+
+    <h3>3.2. Station Status</h3>
+
+    <p>The 'State' column indicates the status of each BiciMAD station.
+    Regarding the stations, we can state that 626 are in service (99.2%),
+    3 are not in service, one has reached the end of its useful life,
+    and another one is planned.</p>
+
+    <h3>3.3. Other Indicators</h3>
+
+    <p>The 'Activate' and 'NoAvailable' columns provide additional information about the stations.
+    Regarding the 'Activate' column, 629 stations have a value of 1, while only 2 have a value of 0.
+    In the 'NoAvailable' column, 626 stations have a value of 0 and 5 have a value of 1.
+    Therefore, most stations have 'Activate' set to 1 and 'NoAvailable' set to 0.</p>
+
+    <h3>3.4. Data Quality</h3>
+
+    <p>Regarding the quality of the dataset, it contains 631 records and 12 columns.
+    According to our analysis, there are no missing values or completely duplicated records.
+    However, we found 2 stations with a capacity of 0, which could be interesting to review.</p>
+
+</body>
+</html>
