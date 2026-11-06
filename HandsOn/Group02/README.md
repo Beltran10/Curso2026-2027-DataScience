@@ -13,4 +13,4 @@ Smart Cities project focused on sustainable mobility in Madrid.
 - Javier Gonzalo Parejo
   - GitHub: javigonn
 - Mateo Bustamante Mansito
-- GitHub:mbm26
+  - GitHub:mbm26
