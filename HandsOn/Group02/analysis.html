@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,27 +118,57 @@
     <p>Regarding the quality of the dataset, it contains 631 records and 12 columns.
     According to our analysis, there are no missing values or completely duplicated records.
     However, we found 2 stations with a capacity of 0, which could be interesting to review.</p>
-    <h2>4.Licensing Analysis</h2>
 
-    <p>The Madrid City Council makes the data available to the public. 
-     The data is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) agreement. 
-     This license permits the reuse, sharing, and modification of the data. 
-     Nonetheless, it is essential to acknowledge the original source and its license when utilizing the data.</p>
+    <h2>4. Licensing Analysis</h2>
 
-        
+    <p>The Madrid City Council makes the data available to the public.
+    The data is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+    This license permits the reuse, sharing, and modification of the data.
+    However, we must acknowledge the original source and its license when using the data.</p>
+
     <p>The dataset has been published by the Madrid City Council,
     while the entity responsible for the dataset is the Municipal Transport
     Company of Madrid (Empresa Municipal de Transportes, S.A.).
     The rights holder is not explicitly identified in the dataset information.</p>
+
+    <p>For the RDF dataset that we are going to create, we propose
+    using the same CC BY 4.0 license. This allows us to share and
+    reuse the transformed data while giving credit to the original source.</p>
+
+    <p>License:
+    <a href="https://creativecommons.org/licenses/by/4.0/legalcode.es">
+    Creative Commons Attribution 4.0 International
+    </a></p>
+
     <h2>5. URI Naming Strategy</h2>
 
     <h3>5.1. Domain and URI Structure</h3>
 
-    <p>
-        
-    </p>
+    <p>For our BiciMAD project, we have chosen https://example.org/bicimad/
+    as the base for our URIs. We will use /ontology# to identify the classes
+    and properties of our ontology, while /resource/station/ followed by
+    the station number will be used to identify each BiciMAD station.
+    This allows us to organize the resources in a clear and consistent way.</p>
 
+    <p>This domain is used as an example for our project.
+    The URIs are not currently published on a server.</p>
 
+    <h3>5.2. Naming Conventions</h3>
+
+    <p>We will use some naming conventions to keep our URIs organized and consistent.
+    Class names will start with a capital letter, such as Station, while property names
+    will start with a lowercase letter, such as name, address or totalBases.
+    Each station will be identified using its station number.
+    We will also avoid spaces and special characters in our URI identifiers.</p>
+
+    <h3>5.3. Content Negotiation</h3>
+
+    <p>We propose using content negotiation to provide different representations
+    of our resources. When a user accesses a URI, the server could offer an HTML
+    page or RDF data in Turtle format, depending on the format the user requests.
+    This approach allows both people and applications to access the data
+    in a format that fits their needs.</p>
 
 </body>
 </html>
+
