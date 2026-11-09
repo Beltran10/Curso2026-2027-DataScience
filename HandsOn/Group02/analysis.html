@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,13 +145,16 @@
 
     <h3>5.1. Domain and URI Structure</h3>
 
-    <p>For our BiciMAD project, we have chosen https://example.org/bicimad/
-    as the base for our URIs. We will use /ontology# to identify the classes
-    and properties of our ontology, while /resource/station/ followed by
-    the station number will be used to identify each BiciMAD station.
-    This allows us to organize the resources in a clear and consistent way.</p>
+    <p>For our BiciMAD project, we have chosen
+    http://www.bicimadexplorer.es/ as the base for our URIs.
+    We will use /ontology/bicimad# to identify the classes
+    and properties of our ontology, while /resource/station/
+    followed by the station number will be used to identify
+    each BiciMAD station.
+    This allows us to organize the resources in a clear
+    and consistent way.</p>
 
-    <p>This domain is used as an example for our project.
+    <p>This domain is proposed for our project.
     The URIs are not currently published on a server.</p>
 
     <h3>5.2. Naming Conventions</h3>
@@ -161,7 +165,25 @@
     Each station will be identified using its station number.
     We will also avoid spaces and special characters in our URI identifiers.</p>
 
-    <h3>5.3. Content Negotiation</h3>
+    <h3>5.3. URI Forms</h3>
+
+    <p>We will use hash URIs for the classes and properties
+    of our ontology, and slash URIs for the stations.
+    For example:</p>
+
+    <ul>
+        <li>Class:
+        http://www.bicimadexplorer.es/ontology/bicimad#Station
+        </li>
+        <li>Property:
+        http://www.bicimadexplorer.es/ontology/bicimad#name
+        </li>
+        <li>Station:
+        http://www.bicimadexplorer.es/resource/station/001
+        </li>
+    </ul>
+
+    <h3>5.4. Content Negotiation</h3>
 
     <p>We propose using content negotiation to provide different representations
     of our resources. When a user accesses a URI, the server could offer an HTML
@@ -171,4 +193,5 @@
 
 </body>
 </html>
+
 
